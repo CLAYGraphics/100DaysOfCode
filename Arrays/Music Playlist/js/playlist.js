@@ -17,38 +17,30 @@
 //     console.log(students[i]);
 // }
 
-var playlist = [
-    'Can I Kick It?',
-    'Runnin',
-    'All The Places',
-    'Heavy, California',
-    'Unfinished Sympathy'
-];
 
-function print (message) {
-    document.write(message);
-}
+// ---------------------------------------
 
-function printList( list ) {
-    var listHTML = '<ol>';
-    for (var i = 0; i < list.length; i += 1) {
-        listHTML += '<li>' + list[i] + '</li>'
-    }
-    listHTML += '</ol>';
-    print(listHTML);
-} 
-printList(playlist);
+// var playlist = [
+//     'Can I Kick It?',
+//     'Runnin',
+//     'All The Places',
+//     'Heavy, California',
+//     'Unfinished Sympathy'
+// ];
 
+// function print (message) {
+//     document.write(message);
+// }
 
-
-
-
-
-
-
-
-
-
+// function printList( list ) {
+//     var listHTML = '<ol>';
+//     for (var i = 0; i < list.length; i += 1) {
+//         listHTML += '<li>' + list[i] + '</li>'
+//     }
+//     listHTML += '</ol>';
+//     print(listHTML);
+// } 
+// printList(playlist);
 
 
 // ---------------------------------------
@@ -64,3 +56,7 @@ printList(playlist);
 // ];
 // var daysString = daysInThewWeek.join(', ');
 // document.write(daysString);
+
+// ---------------------------------------
+
+
