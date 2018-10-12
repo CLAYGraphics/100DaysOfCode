@@ -1,0 +1,32 @@
+/* ================================= 
+  Flexbox
+==================================== */
+
+.container {
+  display: flex;
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  /* justify-content: flex-end; */
+  /* justify-content: center; */
+  /* justify-content: space-between; */
+  justify-content: space-around;
+}
+
+/* Good for Nav spacing */
+/* .item-2 {
+  margin-right: auto;
+} */
+
+.item-6 {
+  order: -1;
+}
+
+/* all other items have a default order value of 0 */
+.item-1 {
+  order: 1;
+}
+
+.item-3 {
+  flex-grow: 1; 
+}
